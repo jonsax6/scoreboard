@@ -10,12 +10,12 @@ const Player = (props) => {
         </span>
   
         <Counter 
-            score={props.score}
-            index={props.index}
-            changeScore={props.changeScore}
+          score={props.score}
+          changeScore={props.changeScore}
+          index={props.index}
         />
       </div>
     );
-}
-  
+  }
+
 export default Player;
